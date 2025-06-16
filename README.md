@@ -74,14 +74,14 @@ bank.csv: 10% sample of the older version.
 | Stacking Classifier  | 67.2%      |
 | Tuned XGBoost        | 66.7%      |
 
-### Precision (Positive Predictive Value)
+#### Precision (Positive Predictive Value)
 
 | Model               | Percentage |
 | :--------------------| :-----------|
 | Tuned Bagging       | 71.5%      |
 | Tuned Random Forest | 71.4%      |
 
-### F1 Score (Harmonic Mean of Precision & Recall)
+#### F1 Score (Harmonic Mean of Precision & Recall)
 
 | Model                | Percentage |
 | :---------------------| :-----------|
