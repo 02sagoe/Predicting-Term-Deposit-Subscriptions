@@ -102,7 +102,7 @@ bank.csv: 10% sample of the older version.
 
 ### Webapp Link
 
-<b>Link</b>: https://term-deposit-subscription-webapp.onrender.com/predict
+<b>Link</b>: https://term-deposit-subscription-webapp.onrender.com/
 
 ### Webapp Repository
 
