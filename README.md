@@ -2,6 +2,7 @@
 
 This project aims to predict whether a client will subscribe to a term deposit based on features derived from marketing campaign data. It includes model training, evaluation, feature importance analysis, and actionable insights for the marketing team.
 
+
 ## Dataset Description
 The dataset is related to direct marketing campaigns of a banking institution. The goal is to predict if a client will subscribe (yes) or not (no) to a term deposit (y).
 
@@ -54,11 +55,40 @@ bank-full.csv: Older version with fewer features.
 
 bank.csv: 10% sample of the older version.
 
-Link: https://docs.google.com/spreadsheets/d/1g218zOl2tUeZ9jOZwgZ696qzSWwV-Une/edit?usp=sharing&ouid=102831201071985235715&rtpof=true&sd=true
+<b>Link</b>: https://docs.google.com/spreadsheets/d/1g218zOl2tUeZ9jOZwgZ696qzSWwV-Une/edit?usp=sharing&ouid=102831201071985235715&rtpof=true&sd=true
+
 
 ## Report
 
-Link: https://docs.google.com/document/d/1bVqOiQjfCrcK0UhEdDW5NXzqABpzjIJA0t_4mIhEDEE/edit?usp=sharing
+<b>Link</b>: https://docs.google.com/document/d/1bVqOiQjfCrcK0UhEdDW5NXzqABpzjIJA0t_4mIhEDEE/edit?usp=sharing
+
+
+## Project Key Findings
+
+### Observations by Metric
+
+####  Recall (True Positive Rate)
+
+| Model                | Percentage |
+| :---------------------| :-----------|
+| Stacking Classifier  | 67.2%      |
+| Tuned XGBoost        | 66.7%      |
+
+### Precision (Positive Predictive Value)
+
+| Model               | Percentage |
+| :--------------------| :-----------|
+| Tuned Bagging       | 71.5%      |
+| Tuned Random Forest | 71.4%      |
+
+### F1 Score (Harmonic Mean of Precision & Recall)
+
+| Model                | Percentage |
+| :---------------------| :-----------|
+| Tuned XGBoost        | 61.9%      |
+| Stacking Classifier  | 60.2%      |
+
+
 
 ## Getting Started:
 
@@ -72,7 +102,7 @@ Link: https://docs.google.com/document/d/1bVqOiQjfCrcK0UhEdDW5NXzqABpzjIJA0t_4mI
 
 ### Webapp Repository
 
-Link: https://github.com/02sagoe/Term-Deposit-Subscription-Webapp
+<b>Link</b>: https://github.com/02sagoe/Term-Deposit-Subscription-Webapp
 
 
 ### Questions?
