@@ -100,6 +100,10 @@ bank.csv: 10% sample of the older version.
 
 * Install the required packages using pip install -r requirements.txt
 
+### Webapp Link
+
+<b>Link</b>: https://term-deposit-subscription-webapp.onrender.com/predict
+
 ### Webapp Repository
 
 <b>Link</b>: https://github.com/02sagoe/Term-Deposit-Subscription-Webapp
