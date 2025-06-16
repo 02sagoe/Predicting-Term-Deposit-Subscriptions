@@ -7,7 +7,7 @@ The dataset is related to direct marketing campaigns of a banking institution. T
 
 Features :
 
-age (numeric)
+`age` (numeric)
 
 `job` : type of job (categorical: "admin", "unknown", "unemployed", "management", "housemaid", "entrepreneur", "student", "blue-collar", "self-employed", "retired", "technician", "services") 
 
@@ -42,6 +42,8 @@ age (numeric)
 
 Target Variable : `y – binary classification (yes / no)`
 
+
+
 Available datasets:
 
 bank-additional-full.csv: Full dataset with 41,188 examples and 20 inputs.
@@ -60,9 +62,9 @@ Link: https://docs.google.com/document/d/1bVqOiQjfCrcK0UhEdDW5NXzqABpzjIJA0t_4mI
 
 ## Getting Started:
 
-* Clone this repository: `git clone https://github.com/yourusername/Term_Deposit_Prediction.git `
+* Clone this repository: `git clone https://github.com/02sagoe/Predicting-Term-Deposit-Subscriptions `
 
-* cd `Term_Deposit_Prediction`
+* cd `Term-Deposit-Subscriptions`
 
 * create new env with python 3 and activate it `(virtualenv venv & venv\scripts\activate)`.
 
