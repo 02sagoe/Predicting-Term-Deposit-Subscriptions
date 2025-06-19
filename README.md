@@ -67,26 +67,31 @@ bank.csv: 10% sample of the older version.
 
 ### Observations by Metric
 
+####  Acuaracy 
+
+| Model                               | Percentage |
+| :-----------------------------------| :----------|
+| Gradient Boosting Classifer (Tuned) | 53.7%      |
+
 ####  Recall (True Positive Rate)
 
-| Model                | Percentage |
-| :---------------------| :-----------|
-| Stacking Classifier  | 67.2%      |
-| Tuned XGBoost        | 66.7%      |
+| Model                               | Percentage |
+| :-----------------------------------| :----------|
+| Gradient Boosting Classifer (Tuned) | 89.7%      |
+
 
 #### Precision (Positive Predictive Value)
 
-| Model               | Percentage |
-| :--------------------| :-----------|
-| Tuned Bagging       | 71.5%      |
-| Tuned Random Forest | 71.4%      |
+| Model                               | Percentage |
+| :-----------------------------------| :----------|
+| Gradient Boosting Classifer (Tuned) | 52.1%      |
 
 #### F1 Score (Harmonic Mean of Precision & Recall)
 
-| Model                | Percentage |
-| :---------------------| :-----------|
-| Tuned XGBoost        | 61.9%      |
-| Stacking Classifier  | 60.2%      |
+| Model                              | Percentage |
+| :----------------------------------| :----------|
+| Gradient Boosting Classifer (Tuned)| 65.9  %    |
+
 
 
 
@@ -102,7 +107,7 @@ bank.csv: 10% sample of the older version.
 
 ### Webapp Link
 
-<b>Link</b>: https://term-deposit-subscription-webapp.onrender.com/
+<b>Link</b>: https://term-deposit-subscription-webapp-xmfp.onrender.com/
 
 ### Webapp Repository
 
